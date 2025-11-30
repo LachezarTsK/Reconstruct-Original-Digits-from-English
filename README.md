@@ -5,7 +5,7 @@ Challenge at LeetCode.com. Tags: Hash Table, Math, String, Counting Sort.
 
 The problem statement guarantees that all letters in the input can be used and it requires that the solution uses all of them. Since some letters in the digits, expressed in words, are shared, the major task is to design the queries in such a way that at every step, the possibility for an ambiguous selection (query) is excluded.
 
-**An ambiguous query, example**
+**An ambiguous query, example.**
 
 Input: “nenienonevesnine”, with letters ordered properly and words separated, it is “nine one seven nine”.
 
@@ -15,13 +15,13 @@ Of course, in this case the frequency of “o” and “e” (or whatever other 
 
  
 
-**An unambiguous query, example**
+**An unambiguous query, example.**
 
 Input: “zooneerzeroorezzero”, with letters ordered properly and words separated, it is “zero one zero zero zero”.
 
 If the key letter that is used for the current query is “z”, then we know that its frequency is 4. And the letter “z” is not shared among any other digits. So, we can be sure that we can also take 4 of “e”, 4 of “r” and 4 of “o” without the danger of taking more / less than needed of these letters for the current query. Thus, at the current query, we form 4 of “zero”.
 
-Another key consideration is that a letter can be unambiguous either in absolute or in relative terms.
+**Another key consideration is that a letter can be unambiguous either in absolute or in relative terms.**
 
 A letter is unambiguous in absolute terms, when it occurs only in one digit, in general. As an example, the letter “z” occurs only in “zero” and not in any other digit.
 
