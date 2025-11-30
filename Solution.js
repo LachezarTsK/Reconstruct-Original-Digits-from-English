@@ -69,7 +69,7 @@ class Util {
 
     static keyLettersOrderedForUnambiguousQuery
             = ['z'.codePointAt(0), 'w'.codePointAt(0), 'u'.codePointAt(0), 'x'.codePointAt(0), 'g'.codePointAt(0),
-                'h'.codePointAt(0), 's'.codePointAt(0), 'v'.codePointAt(0), 'i'.codePointAt(0), 'n'.codePointAt(0)];
+               'h'.codePointAt(0), 's'.codePointAt(0), 'v'.codePointAt(0), 'i'.codePointAt(0), 'n'.codePointAt(0)];
 
     static wordsOrderedForUnambiguousQuery
             = ["zero", "two", "four", "six", "eight", "three", "seven", "five", "nine", "one"];
